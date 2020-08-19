@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guide</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    
+        <div class="scroll-page">
+                <div class="section"><section class="slider">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url('images/1.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('images/2.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('images/3.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('images/4.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('images/5.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('images/6.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('images/7.jpg')"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section></div>
+                <div class="section"><section class="parallax">
+    <img src="images/stars.png" class="parallax__img parallax__img-0" data-speed="-1">
+    <img src="images/star.png" class="parallax__img parallax__img-1" data-speed="1">
+    <img src="images/star.png" class="parallax__img parallax__img-2" data-speed="-2">
+    <img src="images/star.png" class="parallax__img parallax__img-3" data-speed="1">
+    <img src="images/star.png" class="parallax__img parallax__img-4" data-speed="15">
+    <img src="images/star.png" class="parallax__img" data-speed="1">
+</section></div>
+                <div class="section"><form action="#" class="form">
+    <label class="form__label">
+        <input class="form__input" id="input-name" type="text" placeholder="Имя">
+        <span class="form__desc">Имя</span>
+    </label>
+    <label class="form__label">
+        <input class="form__input" id="input-phone" type="tel" name="phone" placeholder="Телефон" minlength="13" maxlength="20" pattern="(8 0(25|29|33|44) ([0-9]{3}( [0-9]{2}){2}))" required>
+        <span class="form__desc">Телефон (формат: 8 0ХХ ХХХ ХХ ХХ)</span>
+    </label>
+    <label class="form__label">
+        <input class="form__input" id="input-email" type="email" placeholder="Email" required>
+        <span class="form__desc">Email</span>
+    </label>
+    <label class="form__label">
+        <input class="form__input" id="input-login" minlength="4" maxlength="32" type="text" placeholder="Login" required>
+        <span class="form__desc">Login (Логин должен быть минимум 4 символа)</span>
+    </label>
+    <button class="btn" value="Send">Отправить</button>
+</form></div>
+        </div>
+        <div class="sent__overlay" id="modal-sent">
+                <div class="sent">
+                        <span class="sent__close">&times;</span>
+                        <p class="sent__title">Ваш заказ принят.</p>
+                        <span class="sent__desc">Ожидайте звонка</span>
+                </div>
+        </div>
+
+            
+        
+        
+        
+    <script src="js/all.min.js"></script></body>
+</html>
